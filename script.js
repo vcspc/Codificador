@@ -10,22 +10,22 @@ function start(){
         
         var message = textMessage.value;
         var messageCode = [];
-        var someMessageCode = []
+        var newMessageCode = []
         
         for(var cont = 0; cont < message.length; cont++){
              messageCode.push(message.charCodeAt(cont));
-           someMessageCode.push(newMessageCode(messageCode[cont], cont));
+           newMessageCode.push(addMessageCode(messageCode[cont], cont));
         }
        
         // var newMessageCode = messageCode.map(x => x + 3);
         
         console.log(message);
         console.log(messageCode);
-        console.log(someMessageCode);
+        console.log(newMessageCode);
         
     }
 
-    function newMessageCode(number, cont){
+    function addMessageCode(number, cont){
        return number + cont
     }
 
