@@ -4,7 +4,6 @@ function start(){
     var buttonDecode = document.querySelector('#button-decode');
         buttonCode.addEventListener('click', handButtonClickCode);
         buttonDecode.addEventListener('click', handButtonClickDecode);
-    
 
 }
 
@@ -26,11 +25,6 @@ function start(){
             messageTranslated.push(String.fromCharCode(keyMessageCode[cont]))
             result = result + messageTranslated[cont]
         }
-
-        console.log(message);
-        console.log(messageCode);
-        console.log(keyMessageCode);
-        console.log(messageTranslated);
 
         codeResult.textContent = result;
         
@@ -59,33 +53,27 @@ function start(){
     }
 
     function addMessageCode(number, message){
-       
-        var key = [2, 5, 4, 7, 10, 8, 9, 11];
-       
 
-        for(var cont = 0; cont < message.length; cont++){
+       for(var cont = 0; cont < message.length; cont++){
 
             var value = number + key[cont];
 
-            console.log(value);
 
             return value;
         }
     }
         
     function removeMessageCode(number, message){
-       
-            var key = [2, 5, 4, 7, 10, 8, 9, 11];
-           
-    
-            for(var cont = 0; cont < message.length; cont++){
+         
+        for(var cont = 0; cont < message.length; cont++){
     
                 var value = number - key[cont];
-    
-                console.log(value);
     
                 return value;
             }
         }
+
+
+var key = [2, 5, 4, 7, 10, 8, 9, 11];
 
 start();
