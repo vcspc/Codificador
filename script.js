@@ -2,9 +2,11 @@ function start(){
 
     var buttonCode = document.querySelector('#button-code');
     var buttonDecode = document.querySelector('#button-decode');
+    var buttonCopy = document.querySelector('#button-copy');
         buttonCode.addEventListener('click', handButtonClickCode);
         buttonDecode.addEventListener('click', handButtonClickDecode);
-
+        buttonCopy.addEventListener('click', handButtonClickCopy);
+        
 }
 
     function handButtonClickCode(){
@@ -72,6 +74,13 @@ function start(){
                 return value;
             }
         }
+    
+    function handButtonClickCopy(){
+
+        var codeResult = document.querySelector('#result');
+        
+        navigator.clipboard.writeText(codeResult.textContent);
+    }
 
 
 var key = [2, 5, 4, 7, 10, 8, 9, 11];
