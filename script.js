@@ -80,6 +80,10 @@ function start(){
         var codeResult = document.querySelector('#result');
         
         navigator.clipboard.writeText(codeResult.textContent);
+
+        var copied = codeResult.textContent;
+
+        alert('"' + copied + '"' + ' copiado');
     }
 
 
