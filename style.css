@@ -20,3 +20,56 @@ font-size: 12px;
 line-height: 13px;
 color: #000000;
 }
+
+#button-decode{
+width: 73px;
+height: 17px;
+
+background: #7EE182;
+border-radius: 5px;
+
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+/* identical to box height */
+color: #000000;
+}
+
+#button-copy{
+width: 44px;
+height: 17px;
+
+background: #7FCFE0;
+border-radius: 5px;
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+/* identical to box height */
+color: #000000;
+}
+
+.message {
+width: 241px;
+height: 66px;
+
+font-family: 'Inconsolata';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 17px;
+text-transform: uppercase;
+
+color: #D9D9D9;
+}
+
+body {
+    background: #263034;
+}
+
+#result{
+    background: #D9D9D9;
+}
