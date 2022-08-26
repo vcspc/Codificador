@@ -1,7 +1,7 @@
 
 .box-center {
    margin-top: 50px;
-    position: relative;
+   position: relative;
    width: 265px;
    margin: auto auto;
 
@@ -10,7 +10,6 @@
 #input-message {
 width: 265px;
 height: 136px;
-text-align: center;
 background: #D9D9D9;
 border-radius: 5px;
 
@@ -18,7 +17,7 @@ border-radius: 5px;
 #button-code {
 width: 63px;
 height: 17px;
-
+text-align: center;
 background: #AD51C5;
 border-radius: 5px;
 font-family: 'Inconsolata';
@@ -35,6 +34,7 @@ height: 17px;
 
 background: #7EE182;
 border-radius: 5px;
+text-align: center;
 
 font-family: 'Inconsolata';
 font-style: normal;
@@ -48,7 +48,7 @@ color: #000000;
 #button-copy{
 width: 44px;
 height: 17px;
-
+text-align: center;
 background: #7FCFE0;
 border-radius: 5px;
 font-family: 'Inconsolata';
